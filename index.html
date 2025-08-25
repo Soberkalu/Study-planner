@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Study Planner</title>
+  <link rel="stylesheet" href="study.css" />
+</head>
+<body>
+  <header>
+    <h1>📘 Study Planner</h1>
+    <p class="tagline">Plan. Track. Succeed.</p>
+  </header>
+
+  <main class="container">
+    <form id="task-form">
+      <input type="text" id="subject" placeholder="Subject or Topic" required />
+      <input type="time" id="time" required />
+      <button type="submit">+ Add Task</button>
+    </form>
+
+    <section class="progress-section">
+      <div class="progress-bar">
+        <div id="progress"></div>
+      </div>
+      <p id="progress-text">0% Complete</p>
+    </section>
+
+    <ul id="task-list"></ul>
+  </main>
+
+  <footer>
+    <p>© 2025 Study Planner | Built with ❤️ by Sober Kalu</p>
+  </footer>
+
+  <script src="study.js"></script>
+</body>
+</html>
